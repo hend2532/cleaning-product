@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+}
+.container .n-left{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  /* width: 20%; */
+}
+.container .n-left .logo{
+  color: var(--black);
+  font-size: 20px;
+  font-weight: bold;
+}
+.container .n-right{
+  display: flex;
+  gap: 10px;
+  /* width: auto; */
+}
+.container .n-right ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  /* width: 100%; */
+}
+.container .n-right ul li{
+  list-style: none;
+  font-size: 13px;
+  /* padding: 10px; */
+  margin-top: 10px;
+  /* line-height: 30px; */
+}
+.container .n-right ul li:hover{
+  color: var(--orange);
+  cursor: pointer;
+}
